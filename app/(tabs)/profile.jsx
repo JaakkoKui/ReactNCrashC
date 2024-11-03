@@ -5,8 +5,8 @@ import gStyles from "../../styles.js";
 
 export default function App() {
   return (
-    <View className=" bg-blue-500 flex-1 items-center justify-center">
-      <Text>Profile</Text>
+    <View  className="flex-1 items-center justify-center bg-red-500">
+      <Text >Profile</Text>
       <Link href="/" style={{ color: 'blue' }}>Home</Link>
       <StatusBar style="auto" />
     </View>
